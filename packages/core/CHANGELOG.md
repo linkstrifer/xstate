@@ -1,5 +1,11 @@
 # xstate
 
+## 4.18.1
+
+### Patch Changes
+
+- [`a61d01ce`](https://github.com/davidkpiano/xstate/commit/a61d01cefab5734adf9bfb167291f5b0ba712684) [#2125](https://github.com/davidkpiano/xstate/pull/2125) Thanks [@VanTanev](https://github.com/VanTanev)! - In callback invokes, the types of `callback` and `onReceive` are properly scoped to the machine TEvent.
+
 ## 4.18.0
 
 ### Minor Changes
